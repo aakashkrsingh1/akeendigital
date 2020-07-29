@@ -436,17 +436,7 @@ footer p {
   transition: var(--transition);
 }
 
-.contact-center p {
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-.contact-center:hover {
-  background: var(--clr-secondary);
-  color: var(--clr-white);
-}
-.contact-center:hover p {
-  color: var(--clr-white);
-}
+
 .top-link {
   font-size: 1.25rem;
   position: fixed;
