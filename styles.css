@@ -386,6 +386,14 @@ header {
     column-gap: 2rem;
   }
 }
+
+@media screen and (min-height: 350px) {
+ 
+  #services 
+  {
+    height: max-content;
+  }
+}
 @media screen and (min-width: 992px) {
   .services-center {
     grid-template-columns: 1fr 1fr ;
